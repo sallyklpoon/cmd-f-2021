@@ -1,0 +1,26 @@
+body html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("/title_page/images/landing.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centered-div {
+    margin: 0px auto;
+    width: 75%
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px
+}
