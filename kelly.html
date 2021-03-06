@@ -14,8 +14,13 @@
            align-items: center; 
         }
 
+        .divPosition {
+            position: relative;
+        }
+
         .buttoninsert {
-            margin-left: -50%;
+            /* margin-left: -50%; */
+            position: absolute;
         }
 
         .confirmationbuttons {
@@ -41,7 +46,7 @@
     <img src=".\images\x.svg">
 </div>
 
-<div>
-    <input class="form-control form-control-lg" type="text" placeholder="Say something...">
+<div class="divPosition">
+    <input class="form-control form-control-sm" type="text" placeholder="Say something...">
     <button type="button" class="btn btn-outline-primary buttoninsert">Send</button>
 </div>
