@@ -1,0 +1,19 @@
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+body {
+  background-color: #cfdac8;
+  color: #7c9473;
+}
+
+.first-para {
+  margin-top: 10rem;
+}
