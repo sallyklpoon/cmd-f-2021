@@ -3,11 +3,22 @@ body html {
 }
 
 .bg {
-    background-image: url("/title_page/images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#logo {
+    width: 30vw;
+}
+
+.full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .centered-div {
@@ -16,11 +27,10 @@ body html {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
+    display: inline;
+    
 }
 
 button {
-    margin-left: 10px;
-    margin-right: 10px
+
 }
