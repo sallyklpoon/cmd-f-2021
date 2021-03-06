@@ -11,6 +11,11 @@ body html {
 }
 
 #logo {
+    margin: 5em auto 2em auto;
+    
+}
+
+.logo-resize {
     width: 30vw;
 }
 
@@ -18,7 +23,12 @@ body html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+.bg-wrap {
+    padding: 3em;
+    border-radius: 5em;
+    background-color: rgb(232, 234, 230, 0.5);
 }
 
 .centered-div {
