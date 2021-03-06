@@ -28,7 +28,7 @@ body html {
 .bg-wrap {
     padding: 3em;
     border-radius: 5em;
-    background-color: #E8EAE6;
+    background-color: rgb(232, 234, 230, 0.5);
 }
 
 .centered-div {
