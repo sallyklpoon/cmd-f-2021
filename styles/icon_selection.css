@@ -10,7 +10,7 @@ h1 {
 }
 
 .icon-container {
-    margin: 1em auto 2em auto;
+    margin: 0em auto 3em auto;
     width: 75%;
     display: flex;
     flex-wrap: wrap;
