@@ -92,43 +92,55 @@
 
 }
 
+.row {
+
+  margin-top:0px !important;
+}
+
 #b-1 {
 
-  margin-left: 30px;
   margin-top: 25px;
+  margin-bottom: -20px;
 
 }
 
 #b-2 {
 
-  margin-left: 75px;
+  margin-left: 125px;
+  margin-bottom: -20px;
 
 }
 
-#b-row-flex {
+#b-3 {
 
-  display: flex;
-    clear: all;
-
+  margin-bottom: -20px;
 }
 
 #b-4{
 
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: -20px;
 
 }
 
 #b-5 {
 
   float: right;
+  margin-bottom: -55px;
 
 }
 
 #b-6 {
 
-  margin-top: 75px;
+  clear: both;
   margin-bottom: 25px;
+
+}
+
+.btn:focus {
+
+  background-color: #485842;
+  transition: 1s ease;
 
 }
 

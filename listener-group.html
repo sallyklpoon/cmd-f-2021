@@ -43,46 +43,36 @@
 
       <h1 class="group-h1">I want to talk to someone who...</h1>
 
-        <div class="volunteer-1 bubble" id="b-1">
-
-          <p class="components-text volunteer-text"> Is a BIPOC </p>
-
+      <div class="row" id="b-1">
+        <div class="col-sm col-2">
+          <button type="button" id="option-1" class="btn btn-primary volunteer-2 bubble-btn" id="b-1">is a POC</button>
         </div>
-
-        <div class="volunteer-2 bubble" id="b-2">
-
-          <p class="components-text volunteer-text"> Identifies as <br> LGBTQ+ </p>
-
+      </div>
+      <div class="row" id="b-2">
+        <div class="col-sm">
+          <button type="button" id="option-3" class="btn btn-primary volunteer-1 bubble-btn">identifies as<br>LGBTQ+</button>
         </div>
-
-        <div id="b-row-flex">
-
-        <div class="volunteer-3 bubble" id="b-3">
-
-          <p class="components-text volunteer-text"> Experienced <br> Mental Illness </p>
-
+      </div>
+      <div class="row" id="b-3">
+        <div class="col-sm">
+          <button type="button" id="option-4" class="btn btn-primary volunteer-3 bubble-btn">Experienced <br> Mental Illness</button>
         </div>
-
-        <div class="volunteer-2 bubble" id="b-4">
-
-          <p class="components-text volunteer-text"> Experienced <br> Trauma </p>
-
+      </div>
+      <div class="row" id="b-4">
+        <div class="col-sm">
+          <button type="button" id="option-5" class="btn btn-primary volunteer-3 bubble-btn">Experienced Poverty</button>
         </div>
-
+      </div>
+      <div class="row" id="b-5">
+        <div class="col-sm">
+          <button type="button" id="option-6" class="btn btn-primary volunteer-1 bubble-btn">Experienced Trauma</button>
         </div>
-
-        <div class="volunteer-3 bubble" id="b-5">
-
-          <p class="components-text volunteer-text"> Experienced <br> Poverty </p>
-
+      </div>
+      <div class="row" id="b-6">
+        <div class="col-sm">
+          <button type="button" id="option-6" class="btn btn-primary volunteer-2 bubble-btn">No Preference</button>
         </div>
-
-        <div class="volunteer-1 bubble" id="b-6">
-
-          <p class="components-text volunteer-text"> No Preference </p>
-
-        </div>
-
+      </div>     
          <hr>
 
          <button type="button" class="btn btn-primary app-button">Next</button>
@@ -90,26 +80,5 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-
-      var bubble = document.getElementsByClassName("bubble");
-
-
-      for (i=0;i<bubble.length;i++){
-
-      let bubble_button = bubble[i];
-
-      bubble_button.addEventListener("click", function() {
-
-          bubble_button.style.backgroundColor = "#5F6E59"
-          bubble_button.style.transition = "ease 1s"
-
-        });
-
-    }
-
-    </script>
-
   </body>
 </html>
