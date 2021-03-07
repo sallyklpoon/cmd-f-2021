@@ -13,6 +13,23 @@
     <title>Olà</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ola-navbar">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo/ola_white.png" class="nav-icon"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link active ola-nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link ola-nav-link" href="#">About</a>
+                  <a class="nav-link ola-nav-link" href="#">Listener Log-in</a>
+              </div>
+          </div>
+      </div>
+    </nav>
+
     <div class="container center-align first-para">
       <h1>I want to talk to someone who identifies as</h1>
     </div>
@@ -20,34 +37,39 @@
     <div class="container">
       <div class="row">
         <div class="col-sm col-2">
-          <button type="button" id="option-1" class="btn btn-primary options">Female</button>
+          <button type="button" id="option-1" class="btn btn-primary options option-1">Female</button>
         </div>
       </div>
       <div class="row">
         <div class="col-sm col-4">
-          <button type="button" id="option-2" class="btn btn-primary options">Male</button>
+          <button type="button" id="option-2" class="btn btn-primary options option-2">Male</button>
+          <button type="button" id="option-3" class="btn btn-primary options option-3">Intersex</button>
+
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <button type="button" id="option-3" class="btn btn-primary options">Intersex</button>
+          <button type="button" id="option-3" class="btn btn-primary options option-3">Intersex</button>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <button type="button" id="option-1" class="btn btn-primary options">Transgender</button>
+          <button type="button" id="option-4" class="btn btn-primary options option-1">Transgender</button>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <button type="button" id="option-3" class="btn btn-primary options">Non-Binary</button>
+          <button type="button" id="option-5" class="btn btn-primary options option-4">Non-Binary</button>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <button type="button" id="option-4" class="btn btn-primary options">No Preference</button>
+          <button type="button" id="option-6" class="btn btn-primary options option-1">No Preference</button>
         </div>
       </div>
+      <hr>
+
+      <button type="button" class="btn btn-primary app-button">Next</button>
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
