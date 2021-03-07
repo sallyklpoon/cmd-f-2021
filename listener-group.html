@@ -43,13 +43,13 @@
 
       <h1 class="group-h1">I want to talk to someone who...</h1>
 
-        <div class="volunteer-1" id="b-1">
+        <div class="volunteer-1 bubble" id="b-1">
 
           <p class="components-text volunteer-text"> Is a BIPOC </p>
 
         </div>
 
-        <div class="volunteer-2" id="b-2">
+        <div class="volunteer-2 bubble" id="b-2">
 
           <p class="components-text volunteer-text"> Identifies as <br> LGBTQ+ </p>
 
@@ -57,13 +57,13 @@
 
         <div id="b-row-flex">
 
-        <div class="volunteer-3" id="b-3">
+        <div class="volunteer-3 bubble" id="b-3">
 
           <p class="components-text volunteer-text"> Experienced <br> Mental Illness </p>
 
         </div>
 
-        <div class="volunteer-2" id="b-4">
+        <div class="volunteer-2 bubble" id="b-4">
 
           <p class="components-text volunteer-text"> Experienced <br> Trauma </p>
 
@@ -71,13 +71,13 @@
 
         </div>
 
-        <div class="volunteer-3" id="b-5">
+        <div class="volunteer-3 bubble" id="b-5">
 
           <p class="components-text volunteer-text"> Experienced <br> Poverty </p>
 
         </div>
 
-        <div class="volunteer-1" id="b-6">
+        <div class="volunteer-1 bubble" id="b-6">
 
           <p class="components-text volunteer-text"> No Preference </p>
 
@@ -90,6 +90,24 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      
+      var bubble = document.getElementsByClassName("bubble");
+
+      for (i=0;i<bubble.length;i++){
+
+      let bubble_button = bubble[i];
+
+      bubble_button.addEventListener("click", function() {
+
+          bubble_button.style.backgroundColor = "#5F6E59"
+          bubble_button.style.transition = "ease 1s"
+        });
+
+    }
+
+
+    </script>
 
   </body>
 </html>
