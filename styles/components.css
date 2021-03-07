@@ -202,13 +202,35 @@ button {
 
 .send-chat {
 
-     display: flex;
+    display: flex;
 }
 
- .input-override {
+.input-override {
 
-     width: 250px !important;
-     border-color: #485842;
-     border-radius: 15px;
+    width: 250px !important;
+    border-color: #485842;
+    border-radius: 15px;
    
+}
+
+.checkmarkButton {
+
+	height: 40px;
+	width: 40px;
+	background-color: #CFD7CB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+}
+
+.x-button {
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: 1px solid #7C9473;
 }
