@@ -6,10 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!------ BOOTSTRAP ------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!---------------------------->
+
+    <!------ STYLES -------------->
     <link href="./styles/icon_selection.css" rel="stylesheet">
     <link href="./styles/components.css" rel="stylesheet">
+    <!----------------------------->
+
+    <!------ FONTS ---------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:ital,wght@1,600&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="./styles/font_styles.css" rel="stylesheet">
+    <!----------------------------->
 
     <title>Olà - Select An Icon </title>
 
@@ -26,7 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active ola-nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active ola-nav-link" aria-current="page" href="./landing.html">Home</a>
                     <a class="nav-link ola-nav-link" href="#">About</a>
                     <a class="nav-link ola-nav-link" href="#">Listener Log-in</a>
                 </div>
@@ -34,30 +45,41 @@
         </div>
     </nav>
 
+
     <div class="main-container">
-        <h1 class="display-6">Select Your Icon</h1>
+
+        <form action='./listener-group.html'>
+
+            <button type="submit" class="back-button"><img src="./images/icons/arrow-left.svg" alt="go back"
+                    id="back-icon"></button>
+
+        </form>
+
+
+        <h1 class="display-5">Select Your Icon</h1>
+
 
 
         <div class="icon-container">
 
 
             <div id="icon1" class="cat-icons">
-                <img src="images/cat1.svg" class="cat-image">
+                <img src="./images/cat1.svg" class="cat-image">
             </div>
 
 
             <div id="icon2" class="cat-icons">
-                <img src="images/cat2.svg" class="cat-image">
+                <img src="./images/cat2.svg" class="cat-image">
             </div>
 
 
             <div id="icon3" class="cat-icons">
-                <img src="images/cat3.svg" class="cat-image">
+                <img src="./images/cat3.svg" class="cat-image">
             </div>
 
 
             <div id="icon4" class="cat-icons">
-                <img src="images/cat4.svg" class="cat-image">
+                <img src="./images/cat4.svg" class="cat-image">
             </div>
 
 
@@ -67,12 +89,12 @@
 
 
             <div id="icon6" class="cat-icons">
-                <img src="images/cat6.svg" class="cat-image">
+                <img src="./images/cat6.svg" class="cat-image">
             </div>
 
 
             <div id="icon7" class="cat-icons">
-                <img src="images/cat7.svg" class="cat-image">
+                <img src="./images/cat7.svg" class="cat-image">
             </div>
 
 
@@ -82,14 +104,48 @@
 
 
             <div id="icon9" class="cat-icons">
-                <img src="images/cat9.svg" class="cat-image">
+                <img src="./images/cat9.svg" class="cat-image">
             </div>
 
 
         </div>
-        
-        <button type="button" class="btn btn-primary app-button icon-next">Next</button>
 
+        <!-- <form action="./messaging.html"> -->
+        <button type="button" class="btn btn-primary app-button icon-next" data-bs-toggle="modal"
+            data-bs-target="#MatchedModal">Find A Listener</button>
+        <!-- </form> -->
+
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="MatchedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Listener Found</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We've found <span class="found-listener">cat_nip_882</span>. <br>
+
+                    <ul>
+                        <li>Pronouns: they/them</li>
+                        <li>Depression</li>
+                        <li>Anxiety</li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn app-button" id="find-another-btn" data-bs-dismiss="btn">Find
+                        Another Listener</button>
+
+                    <button type="submit" class="btn app-button" id="chat-btn" onclick="location.href = './messaging.html';">Let's Chat</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 

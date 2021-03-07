@@ -1,3 +1,16 @@
+a:visited {
+
+  text-decoration: none;
+
+}
+
+a {
+
+  color: #707070;
+
+}
+
+
 .center-align {
   display: flex;
   justify-content: center;
@@ -57,4 +70,11 @@ h1 {
 
 #option-3 {
   margin-right: 0
+}
+
+.options:focus {
+
+  background-color: #485842;
+  transition: 1s ease;
+
 }

@@ -19,9 +19,46 @@ h1 {
 
 .cat-icons {
     margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .icon-next {
 
     margin-top: -25px;
+
+}
+
+.modal {
+    top: 25%;
+}
+
+/*back-button*/
+
+.back-button {
+
+    background-color: transparent !important;
+    margin-bottom: 0.5em;
+
+}
+
+#back-icon {
+
+    width: 2.5em;
+    height: auto;
+
+}
+
+/*modal-syling*/
+
+#chat-btn {
+    width: 100px !important;
+}
+
+#find-another-btn {
+    background-color: #CFDAC8;
+}
+
+.found-listener {
+    color: #485842;
+    font-weight: bold;
 }

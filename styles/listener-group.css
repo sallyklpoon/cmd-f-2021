@@ -1,3 +1,16 @@
+a:visited {
+
+  text-decoration: none;
+  
+}
+
+a {
+
+  color: #707070;
+
+}
+
+
 #wrapper {
 
   margin: 15px;
@@ -10,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .group-h1 {
@@ -18,7 +31,7 @@
   text-align: center;
   font-size: 2.5rem;
   color: #7C9473;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .first-para {
@@ -30,18 +43,15 @@
 .options {
 
   height: 50px;
-	width: 150px;
-	background-color: #CFDAC8;
-	display: flex;
+  width: 150px;
+  background-color: #CFDAC8;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
 }
 
-.bubbles-grid {
-
-
-}
+.bubbles-grid {}
 
 .volunteer-1 {
 
@@ -85,50 +95,64 @@
 
 }
 
-.volunteer-1, .volunteer-2, .volunteer-3 {
+.volunteer-1,
+.volunteer-2,
+.volunteer-3 {
 
   margin-top: 15px;
   text-align: center;
 
 }
 
+.row {
+
+  margin-top: 0px !important;
+}
+
 #b-1 {
 
-  margin-left: 30px;
   margin-top: 25px;
+  margin-bottom: -20px;
 
 }
 
 #b-2 {
 
-  margin-left: 75px;
+  margin-left: 125px;
+  margin-bottom: -20px;
 
 }
 
-#b-row-flex {
+#b-3 {
 
-  display: flex;
-    clear: all;
-
+  margin-bottom: -20px;
 }
 
-#b-4{
+#b-4 {
 
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: -20px;
 
 }
 
 #b-5 {
 
   float: right;
+  margin-bottom: -55px;
 
 }
 
 #b-6 {
 
-  margin-top: 75px;
+  clear: both;
   margin-bottom: 25px;
+
+}
+
+.bubble:focus {
+
+  background-color: #485842;
+  transition: 1s ease;
 
 }
 

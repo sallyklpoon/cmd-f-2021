@@ -1,29 +1,33 @@
+
 .message-header {
+
     color: #7c9473;
     display: flex;
     justify-content: center;
     margin: 1em;
+
 }
 
+
 .back-button {
+
     margin: 0.5em 1em 0em 1.5em;
     background-color: transparent !important;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+
 }
 
+
 .listener-name {
+
     margin: 0.5em 130px 1em 70px;
     color: #7c9473;
     text-align: center;
-}
-
-section {
-
-    position: relative;
 
 }
+
 
 .send-chat {
 
@@ -33,5 +37,42 @@ section {
     display: flex;
     position: fixed;
     justify-content: center;
+
+}
+
+
+.text-bubble{
+
+    margin: 1em 25px 1em 25px !important;
+
+}
+
+
+.user-message{
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1em;
+
+}
+
+
+.mock-message{
+
+    display:flex;
+    align-items: center;
+    padding-left: 1em;
+
+}
+
+
+#mock-trigger{
+
+    width: 100vw;
+    height: 4vh;
+    content: "    ";
+    position: fixed;
+    bottom: 0px;
 
 }

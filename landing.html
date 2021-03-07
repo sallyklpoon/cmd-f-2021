@@ -6,9 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/landing.css" rel="stylesheet">
+
+    <!------ BOOTSTRAP ------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!---------------------------->
+
+    <!------ STYLES -------------->
     <link rel="stylesheet" type="text/css" href="styles/components.css">
+    <!---------------------------->
+
+
+    <!------ FONTS ---------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:ital,wght@1,600&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="./styles/font_styles.css" rel="stylesheet">
+    <!----------------------------->
+
 
     <title>Olà, Let's Get Started</title>
 </head>
@@ -24,7 +38,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active ola-nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active ola-nav-link" aria-current="page" href="./landing.html">Home</a>
                     <a class="nav-link ola-nav-link" href="#">About</a>
                     <a class="nav-link ola-nav-link" href="#">Listener Log-in</a>
                 </div>
@@ -38,24 +52,26 @@
             <div id="logo"><img src="images/logo/ola_colour.png" class="logo-resize"></div>
 
             <div class="bg-wrap">
-                <h1 class="title">Olà, Let's Get Started</h1>
+                <h1 class="display-1">Olà</h1>
+                <h3>Let's Get Started</h3>
 
-                <div class= "center-text">
+                <div class="center-text">
 
-                <p>
-                    Mental health support can come best from peers around you who share
-                    the same experiences you are going through or have gone through.
-                </p>
-                <p>
-                    Olà will get you connected anonymously with a peer in your area who
-                    is available to connect and talk.
-                </p>
+                    <p>
+                        Receive support by connecting with peers in your community who share your experiences.
+                    </p>
+                    <p>
+                        Get connected anonymously with a peer in your area and start Sharing your experience or Listening.
+                    </p>
 
-                    <button type="button" class="btn btn-primary app-button">Share</button>
+                    <form action="./listener-identity.html">
+                        <button type="submit" class="btn btn-primary app-button">Share</button>
+                    </form>
+
                     <button type="button" class="btn btn-primary app-button">Listen</button>
 
-            </div>
-            
+                </div>
+
             </div>
         </div>
     </div>

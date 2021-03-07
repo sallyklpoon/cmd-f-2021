@@ -2,7 +2,7 @@
 
 .components-text {
 
-  margin-bottom: 0rem !important;
+	margin-bottom: 0rem !important;
 
 }
 
@@ -13,11 +13,12 @@ button {
 	outline: none !important;
 	border: none !important;
 	box-shadow: none !important;
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 
 }
 
-.app-button, .app-button:hover {
+.app-button,
+.app-button:hover {
 
 	background-color: #7C9473;
 	color: #fff;
@@ -41,9 +42,9 @@ button {
 	width: 125px;
 	background-color: #7C9473;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
 
 }
 
@@ -58,9 +59,9 @@ button {
 	width: 75px;
 	background-color: #CFDAC8;
 	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
 
 }
 
@@ -71,9 +72,9 @@ button {
 	width: 90px;
 	background-color: #A0C792;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
 
 }
 
@@ -86,9 +87,9 @@ button {
 	width: 60px;
 	background-color: #A0C792;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
 }
 
 .cat-image {
@@ -102,50 +103,52 @@ button {
 
 .text-bubble {
 
-  width: 250px;
-  margin: auto;
-  border-radius: 50px;
-  background: #E8EAE6;
-  color: #707070;
-  padding: 20px;
-  text-align: center;
-  position: relative;
+	max-width: 230px;
+	margin: auto;
+	border-radius: 50px;
+	background: #E8EAE6;
+	color: #707070;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .text-bubble-right:before {
 
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid #E8EAE6;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #E8EAE6;
-  border-bottom: 15px solid transparent;
-  transform: rotate(5deg);
-  right: -12px;
-  top: 25px;
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 15px solid #E8EAE6;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #E8EAE6;
+	border-bottom: 15px solid transparent;
+	transform: rotate(5deg);
+	right: -12px;
+	top: 25px;
 
 }
 
 
 .text-bubble-left:before {
 
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid transparent;
-  border-right: 15px solid #E8EAE6;
-  border-top: 15px solid #E8EAE6;
-  border-bottom: 15px solid transparent;
-  transform: rotate(5deg);
-  left: -12px;
-  top: 25px;
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 15px solid transparent;
+	border-right: 15px solid #E8EAE6;
+	border-top: 15px solid #E8EAE6;
+	border-bottom: 15px solid transparent;
+	transform: rotate(5deg);
+	left: -12px;
+	top: 25px;
 
 }
 
-.chatfloat{
+.chatfloat {
 
 	display: flex;
 
@@ -161,7 +164,7 @@ button {
 
 .ola-navbar {
 
-	background-color: #485842; 
+	background-color: #485842;
 }
 
 .ola-nav-link:active {
@@ -177,34 +180,34 @@ button {
 	width: 40px;
 	background-color: #A0C792;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  font-size: 25px;
-  color: #fff;
-  padding-bottom: 5px;
-  margin-left: 15px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 25px;
+	color: #fff;
+	padding-bottom: 5px;
+	margin-left: 15px;
 
 }
 
 .send-chat {
 
-    display: flex;
+	display: flex;
 }
 
 .input-override {
 
-  width: 250px !important;
-  border-color: #485842;
-  border-radius: 15px;
-   
+	width: 250px !important;
+	border-color: #485842;
+	border-radius: 15px;
+
 }
 
 
 .center-text {
 
-  text-align: center;
-   
+	text-align: center;
+
 }
 
 .checkmarkButton {
@@ -228,4 +231,3 @@ button {
 	border-radius: 100%;
 	border: 1px solid #7C9473;
 }
-
