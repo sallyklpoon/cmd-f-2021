@@ -5,180 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="components.css">
 
 	<title>Susan's Components</title>
 
 <style>
 
-body {
+#wrapper {
 
-	margin: 20px;
+	margin: 0 20px 20px 20px;
 }
-
-p {
-
-	margin-bottom: 0rem !important;
-
-}
-
-/*button styles*/
-
-button {
-
-	outline: none !important;
-	border: none !important;
-	box-shadow: none !important;
-
-}
-
-.app-button, .app-button:hover {
-
-	background-color: #7C9473;
-	color: #fff;
-	font-weight: bold;
-	width: 200px;
-	border-radius: 10px;
-
-}
-
-.app-button:focus {
-
-	background-color: #485842;
-
-}
-
-/*volunteer bubbles*/
-
-.volunteer-1 {
-
-	height: 150px;
-	width: 200px;
-	background-color: #7C9473;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	border-radius: 100%;
-
-}
-
-#volunteer-1-text {
-
-	color: #fff;
-	font-size: 20px;
-
-}
-
-.volunteer-2 {
-
-	height: 70px;
-	width: 125px;
-	background-color: #CFDAC8;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	border-radius: 100%;
-
-}
-
-#volunteer-2-text {
-
-	color: #fff;
-	font-size: 20px;
-
-}
-
-.volunteer-3 {
-
-	height: 100px;
-	width: 150px;
-	background-color: #A0C792;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	border-radius: 100%;
-
-}
-
-#volunteer-3-text {
-
-	color: #fff;
-	font-size: 20px;
-
-}
-
-/*cat icons*/
-
-.cat-icons {
-
-	height: 60px;
-	width: 60px;
-	background-color: #A0C792;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	border-radius: 100%;
-}
-
-.cat-image {
-
-	height: 45px;
-	width: 45px;
-
-}
-
-/*speech bubble*/
-
-.text-bubble {
-
-  width: 250px;
-  margin: auto;
-  border-radius: 50px;
-  background: #E8EAE6;
-  color: #707070;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-}
-
-.text-bubble-right:before {
-
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid #E8EAE6;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #E8EAE6;
-  border-bottom: 15px solid transparent;
-  transform: rotate(5deg);
-  right: -12px;
-  top: 25px;
-
-}
-
-
-.text-bubble-left:before {
-
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid transparent;
-  border-right: 15px solid #E8EAE6;
-  border-top: 15px solid #E8EAE6;
-  border-bottom: 15px solid transparent;
-  transform: rotate(5deg);
-  left: -12px;
-  top: 25px;
-
-}
-
-.chatfloat{
-
-	display: flex;
-
-}
-
 
 </style>
 
@@ -186,29 +22,62 @@ button {
 
 <body>
 
-<button type="button" class="btn btn-primary app-button">This is a button.</button>
+<!-- 	nav bar -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark ola-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo/ola_white.png" class="nav-icon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active ola-nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link ola-nav-link" href="#">About</a>
+                    <a class="nav-link ola-nav-link" href="#">Listener Log-in</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div id="wrapper">
+
 <br><br>
+
+<!-- button -->
+
+<button type="button" class="btn btn-primary app-button">This is a button.</button>
+
+<br><br>
+
+<!-- volunteer bubbles -->
+
 <div class="volunteer-1">
 
-	<p id="volunteer-1-text"> Female </p>
+	<p id="volunteer-1-text" class="components-text"> Female </p>
 
 </div>
 
 <div class="volunteer-2">
 
-	<p id="volunteer-2-text"> Male </p>
+	<p id="volunteer-2-text" class="components-text"> Male </p>
 
 </div>
 
 <div class="volunteer-3">
 
-	<p id="volunteer-3-text"> Enby </p>
+	<p id="volunteer-3-text" class="components-text"> Enby </p>
 
 </div>
 
 <br><br>
 
+<!-- chat -->
+
 <div class="chatfloat">
+
+<!-- cat icons -->
 
 <div class="cat-icons">
 
@@ -216,19 +85,35 @@ button {
 
 </div>
 
+<!-- left speech bubble -->
+
 <div class="text-bubble text-bubble-left">
 
-	<p> This is a speech bubble. </p>
+	<p class="components-text"> This is a speech bubble. </p>
 
 </div>
 
 </div>
+
 <br><br>
+
+<!-- right speech bubble -->
 
 <div class="text-bubble text-bubble-right">
 
-	<p> This is a speech bubble.</p>
+	<p class="components-text"> This is a speech bubble.</p>
 
+</div>
+
+<br><br>
+
+<!-- send chat input -->
+
+<div class="send-chat">
+        <input class="form-control form-control-sm input-override" type="text" placeholder="Say something...">
+		<div class="send-button">
+			<p class="char-arrow components-text">&rarr;</p>
+		</div>
 </div>
 
 </body>
