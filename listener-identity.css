@@ -18,11 +18,32 @@ body {
 }
 
 .options {
-  height: 50px;
-	width: 150px;
-	background-color: #CFDAC8;
 	display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+}
+
+#option-1 {
+  height: 75px;
+	width: 125px;
+	background-color: #7C9473;
+}
+
+#option-2 {
+  height: 45px;
+	width: 75px;
+	background-color: #CFDAC8;
+}
+
+#option-3 {
+  height: 55px;
+	width: 90px;
+	background-color: #A0C792;
+}
+
+#option-4 {
+  height: 75px;
+	width: 125px;
+	background-color: #CFDAC8;
 }
