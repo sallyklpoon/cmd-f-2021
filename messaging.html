@@ -17,6 +17,8 @@
 
 <body>
 
+
+
     <nav class="navbar navbar-expand-lg navbar-dark ola-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="images/logo/ola_white.png" class="nav-icon"></a>
@@ -34,23 +36,35 @@
         </div>
     </nav>
 
+
+
     <div class="message-header">
-        <button type="button" class="back-button"><img src="./images/icons/arrow-left.svg" alt="go back" ></button>
+
+        <form action='./landing.html'>
+
+            <button type="submit" class="back-button"><img src="./images/icons/arrow-left.svg" alt="go back"></button>
+
+        </form>
 
         <h5 class="listener-name">cat_nip_882</h5>
+
     </div>
 
     <section></section>
 
 
-        <div class="send-chat">
-            <input id="text-area" class="form-control form-control-sm input-override" type="text" placeholder="Say something...">
-            <div class="send-button">
-                <p class="char-arrow components-text">&rarr;</p>
-            </div>
+    <div class="send-chat">
+
+        <input id="text-area" class="form-control form-control-sm input-override" type="text"
+            placeholder="Say something...">
+
+        <div class="send-button">
+            <p class="char-arrow components-text">&rarr;</p>
         </div>
 
-        <div id="mock-trigger"></div>
+    </div>
+
+    <div id="mock-trigger"></div>
 
     <!------------------------JAVASCRIPT-------------------->
     <script src="./scripts/messaging.js"></script>
