@@ -18,8 +18,8 @@
 
     <!------ FONTS ---------------->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Quicksand&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:ital,wght@1,600&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="./styles/font_styles.css" rel="stylesheet">
     <!----------------------------->
 
     <title>Olà - Select An Icon </title>
@@ -56,7 +56,7 @@
         </form>
 
 
-        <h1 class="display-6">Select Your Icon</h1>
+        <h1 class="display-5">Select Your Icon</h1>
 
 
 
@@ -112,7 +112,7 @@
 
         <!-- <form action="./messaging.html"> -->
         <button type="button" class="btn btn-primary app-button icon-next" data-bs-toggle="modal"
-            data-bs-target="#MatchedModal">I'm Ready to Chat</button>
+            data-bs-target="#MatchedModal">Find A Listener</button>
         <!-- </form> -->
 
 
@@ -129,9 +129,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    We've found <strong>cat_nip_882</strong>. <br>
+                    We've found <span class="found-listener">cat_nip_882</span>. <br>
 
-                    <ul></ul>
+                    <ul>
+                        <li>Pronouns: they/them</li>
+                        <li>Depression</li>
+                        <li>Anxiety</li>
+
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn app-button" id="find-another-btn" data-bs-dismiss="btn">Find

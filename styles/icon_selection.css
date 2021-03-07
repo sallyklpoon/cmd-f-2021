@@ -48,12 +48,17 @@ h1 {
 
 }
 
-/*modal-buttons*/
+/*modal-syling*/
 
-#chat-btn{
+#chat-btn {
     width: 100px !important;
 }
 
-#find-another-btn{
+#find-another-btn {
     background-color: #CFDAC8;
+}
+
+.found-listener {
+    color: #485842;
+    font-weight: bold;
 }
