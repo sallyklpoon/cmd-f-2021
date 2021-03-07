@@ -72,14 +72,15 @@ function get_sender_chat_div_right(message) {
 }
 
 
-send_button.addEventListener('click', function (event) {
+send_button.addEventListener('click', function () {
 
-    let text_box_value = document.getElementById('text-area').value;
+    let text_box = document.getElementById('text-area')
+    var text_box_value = text_box.value;
 
     let message = text_box_value;
     section.appendChild(get_sender_chat_div_right(message));
 
-    text_box_value.value = "";
+    text_box.value = "";
 
 })
 
