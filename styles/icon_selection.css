@@ -1,0 +1,26 @@
+
+.icon-container {
+    display: flex;
+
+}
+
+
+/*cat icons*/
+
+.cat-icons {
+
+	height: 60px;
+	width: 60px;
+	background-color: #A0C792;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	border-radius: 100%;
+}
+
+.cat-image {
+
+	height: 45px;
+	width: 45px;
+
+}
