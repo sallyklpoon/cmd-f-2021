@@ -103,7 +103,7 @@ button {
 
 .text-bubble {
 
-	width: 230px;
+	max-width: 230px;
 	margin: auto;
 	border-radius: 50px;
 	background: #E8EAE6;
@@ -111,6 +111,8 @@ button {
 	padding: 15px;
 	text-align: center;
 	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .text-bubble-right:before {

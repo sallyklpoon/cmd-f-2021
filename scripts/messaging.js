@@ -37,6 +37,7 @@ function get_para_element(message) {
 
     let para = document.createElement('p');
     para.setAttribute('class', 'components-text');
+    para.style.textAlign = 'right';
 
     let para_textnode = document.createTextNode(message);
 
@@ -115,6 +116,7 @@ function get_mock_para_element(message) {
 
     let para = document.createElement('p');
     para.setAttribute('class', 'components-text');
+    para.style.textAlign = 'left';
 
     let para_textnode = document.createTextNode(message);
 
@@ -150,6 +152,7 @@ function get_mock_chat_div_left(message) {
 }
 
 mock_trigger.addEventListener('click', function (event) {
+
     let mock_message = "Hey, I'm here to listen, fire away.";
     section.appendChild(get_mock_chat_div_left(mock_message));
 
