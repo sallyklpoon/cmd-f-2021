@@ -88,9 +88,37 @@
 
         </div>
 
-        <form action="./messaging.html">
-            <button type="submit" class="btn btn-primary app-button icon-next">I'm Ready to Chat</button>
-        </form>
+        <!-- <form action="./messaging.html"> -->
+        <button type="button" class="btn btn-primary app-button icon-next" data-bs-toggle="modal"
+            data-bs-target="#MatchedModal">I'm Ready to Chat</button>
+        <!-- </form> -->
+
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="MatchedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Listener Found</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We've found <strong>cat_nip_882</strong>. <br>
+                    They identify as:
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
