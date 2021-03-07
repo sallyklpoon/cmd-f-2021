@@ -1,3 +1,8 @@
+.text-bubble{
+    margin-right: 30px !important;
+}
+
+
 .message-header {
     color: #7c9473;
     display: flex;
@@ -34,4 +39,9 @@ section {
     position: fixed;
     justify-content: center;
 
+}
+
+.user-message{
+    display:flex;
+    padding-right: 1em;
 }
