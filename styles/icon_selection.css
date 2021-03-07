@@ -31,3 +31,30 @@ h1 {
 .modal {
     top: 25%;
 }
+
+/*back-button*/
+
+.back-button {
+
+    background-color: transparent !important;
+    margin-bottom: 0.5em;
+
+}
+
+#back-icon {
+
+    width: 2.5em;
+    height: auto;
+
+}
+
+/*modal-buttons*/
+
+#chat-btn{
+    width: 100px !important;
+}
+
+#find-another-btn{
+    background-color: #CFDAC8;
+}
+

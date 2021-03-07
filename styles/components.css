@@ -232,18 +232,16 @@ button {
 	border: 1px solid #7C9473;
 }
 
+/* FONTS */
 
-/*back-button*/
-.back-button {
+.display-6{
 
-    background-color: transparent !important;
-    margin-bottom: 0em;
+	color: #7C9473;
+	font-family: 'Balsamiq Sans', cursive;
 
 }
 
-#back-icon {
-
-    width: 2.5em;
-    height: auto;
-
+p {
+	font-family: 'Quicksand', sans-serif;
+	color: #707070;
 }

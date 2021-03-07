@@ -1,3 +1,16 @@
+a:visited {
+
+  text-decoration: none;
+  
+}
+
+a {
+
+  color: #707070;
+
+}
+
+
 .center-align {
   display: flex;
   justify-content: center;
