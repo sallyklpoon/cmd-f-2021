@@ -231,17 +231,3 @@ button {
 	border-radius: 100%;
 	border: 1px solid #7C9473;
 }
-
-/* FONTS */
-
-.display-6{
-
-	color: #7C9473;
-	font-family: 'Balsamiq Sans', cursive;
-
-}
-
-p {
-	font-family: 'Quicksand', sans-serif;
-	color: #707070;
-}
