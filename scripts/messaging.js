@@ -10,7 +10,7 @@ let section = document.querySelector('section')
 
 function get_user_image() {
 
-    let sender_image_link = sessionStorage.getItem('sender_image');
+    let sender_image_link = sessionStorage.getItem('user_icon');
 
     let image_node = document.createElement('img');
     image_node.setAttribute('src', sender_image_link);
