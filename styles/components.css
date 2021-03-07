@@ -37,8 +37,8 @@ button {
 
 .volunteer-1 {
 
-	height: 150px;
-	width: 200px;
+	height: 75px;
+	width: 125px;
 	background-color: #7C9473;
 	display: flex;
   justify-content: center;
@@ -47,17 +47,15 @@ button {
 
 }
 
-#volunteer-1-text {
+.volunteer-text {
 
-	color: #fff;
-	font-size: 20px;
-
+	color: #fff !important;
 }
 
 .volunteer-2 {
 
-	height: 70px;
-	width: 125px;
+	height: 45px;
+	width: 75px;
 	background-color: #CFDAC8;
 	display: flex;
   	justify-content: center;
@@ -66,17 +64,11 @@ button {
 
 }
 
-#volunteer-2-text {
-
-	color: #fff;
-	font-size: 20px;
-
-}
 
 .volunteer-3 {
 
-	height: 100px;
-	width: 150px;
+	height: 55px;
+	width: 90px;
 	background-color: #A0C792;
 	display: flex;
   justify-content: center;
@@ -85,12 +77,6 @@ button {
 
 }
 
-#volunteer-3-text {
-
-	color: #fff;
-	font-size: 20px;
-
-}
 
 /*cat icons*/
 
