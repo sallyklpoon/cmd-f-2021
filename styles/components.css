@@ -207,7 +207,7 @@ button {
 }
 
 .input-override {
-  
+
   width: 250px !important;
   border-color: #485842;
   border-radius: 15px;
@@ -218,9 +218,6 @@ button {
 .center-text {
 
   text-align: center;
-  width: 250px !important;
-  border-color: #485842;
-  border-radius: 15px;
    
 }
 
