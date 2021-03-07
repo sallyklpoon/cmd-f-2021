@@ -3,6 +3,7 @@
 Hi there, we're team Pasta! 🍝
 
 Our team consists of Batchansaa, Kelly, Susan, and Sally.
+We are first term CST students at BCIT and are excited to complete our first hackathon project together with all the things we've learned from the past two months in the program!
 
 Concept: The community is diverse with experiences. We want to increase connectivity in the community and connect people's shared experiences to support mental health for marginalized groups.
 
