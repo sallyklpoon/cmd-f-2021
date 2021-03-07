@@ -1,3 +1,16 @@
+a:visited {
+
+  text-decoration: none;
+  
+}
+
+a {
+
+  color: #707070;
+
+}
+
+
 #wrapper {
 
   margin: 15px;
@@ -10,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .group-h1 {
@@ -18,7 +31,7 @@
   text-align: center;
   font-size: 2.5rem;
   color: #7C9473;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .first-para {
@@ -30,18 +43,15 @@
 .options {
 
   height: 50px;
-	width: 150px;
-	background-color: #CFDAC8;
-	display: flex;
+  width: 150px;
+  background-color: #CFDAC8;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
 }
 
-.bubbles-grid {
-
-
-}
+.bubbles-grid {}
 
 .volunteer-1 {
 
@@ -85,7 +95,9 @@
 
 }
 
-.volunteer-1, .volunteer-2, .volunteer-3 {
+.volunteer-1,
+.volunteer-2,
+.volunteer-3 {
 
   margin-top: 15px;
   text-align: center;
@@ -94,7 +106,7 @@
 
 .row {
 
-  margin-top:0px !important;
+  margin-top: 0px !important;
 }
 
 #b-1 {
@@ -116,7 +128,7 @@
   margin-bottom: -20px;
 }
 
-#b-4{
+#b-4 {
 
   margin-left: 60px;
   margin-bottom: -20px;

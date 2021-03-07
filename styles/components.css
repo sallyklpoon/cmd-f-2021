@@ -231,3 +231,19 @@ button {
 	border-radius: 100%;
 	border: 1px solid #7C9473;
 }
+
+
+/*back-button*/
+.back-button {
+
+    background-color: transparent !important;
+    margin-bottom: 0em;
+
+}
+
+#back-icon {
+
+    width: 2.5em;
+    height: auto;
+
+}
