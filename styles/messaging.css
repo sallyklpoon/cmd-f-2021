@@ -1,0 +1,37 @@
+.message-header {
+    color: #7c9473;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.back-button {
+    margin: 0.5em 1em 0em 0em;
+    background-color: transparent !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.listener-name {
+    margin: 0.5em 130px 1em 70px;
+    color: #7c9473;
+    text-align: center;
+}
+
+section {
+
+    position: relative;
+
+}
+
+.send-chat {
+
+    bottom: 1em;
+    padding: 1em;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+
+}

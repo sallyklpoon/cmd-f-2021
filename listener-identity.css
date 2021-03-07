@@ -14,7 +14,7 @@ body {
 }
 
 .first-para {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .options {
@@ -25,24 +25,28 @@ body {
 }
 
 #option-1 {
+  margin-left: 5em;
   height: 75px;
 	width: 125px;
 	background-color: #7C9473;
 }
 
 #option-2 {
+  margin-left: 10em;
   height: 45px;
 	width: 75px;
 	background-color: #CFDAC8;
 }
 
 #option-3 {
+  margin-left: 2em;
   height: 55px;
 	width: 90px;
 	background-color: #A0C792;
 }
 
 #option-4 {
+  margin-left: 9em;
   height: 75px;
 	width: 125px;
 	background-color: #CFDAC8;
