@@ -10,10 +10,19 @@ h1 {
 }
 
 body {
-  background-color: #cfdac8;
   color: #7c9473;
 }
 
 .first-para {
   margin-top: 10rem;
+}
+
+.options {
+  height: 50px;
+	width: 150px;
+	background-color: #CFDAC8;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
 }
