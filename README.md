@@ -10,4 +10,4 @@ While access to formal mental health supports are accessible by a quick search (
 
 Welcome Olà, our mobile-first web application design, aiming to allow 'Sharers' to connect and find peers who share similar experiences anonymously.
 
-*This project will be submitted to MLHacks cmd-f 2021 hackathon.*
+*This project was submitted to MLHacks cmd-f 2021 hackathon where our group has chosen to have NwPlus hacks tonate $50 on our behalf to Vancouver's Downtown Eastside Women's Shelter.*
